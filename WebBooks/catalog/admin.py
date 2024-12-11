@@ -46,7 +46,7 @@ class BookInstanceAdmin(admin.ModelAdmin):
             'fields': ('book', 'inv_nom')
         }),
         ('Статус и окончание его действия', {
-            'fields': ('status', 'due_back')
+            'fields': ('status', 'due_back', 'borrower')
         }),
     )
 
